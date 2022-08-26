@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #e9d6d1;
+}
+
+img {
+  margin-top: 30px;
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 200px;
+  /* float: unset; */
+  margin-bottom: -140px;
+  justify-content: center;
+  margin-left: 43%;
+}
+.kutu {
+  border: 2px solid black;
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  width: 600px;
+  height: 480px;
+  text-align: center;
+  padding: 10px;
+  background-color: #dc6c5e;
+  padding-top: 130px;
+}
+
+.download {
+  text-align: center;
+  color: #a771aa;
+}
+.yazi {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #4b3a3a;
+}
+h1 {
+  font-size: 25px;
+  background-color: #dc6c5e;
+}
+.yazi,
+.baslik h1,
+span {
+  background-color: #dc6c5e;
+}

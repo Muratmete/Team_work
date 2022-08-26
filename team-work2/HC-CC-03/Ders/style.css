@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #e9d6d1;
+  /* position: relative; */
+}
+img {
+  justify-content: center;
+  /* margin-top: 25px;
+  padding-top: 40px; */
+  /* position: absolute; */
+  /* transform: translate(150%); */
+  border: 7px solid black;
+  border-radius: 50% 50%;
+  width: 170px;
+  margin-left: 44%;
+  margin-bottom: -140px;
+}
+.kutu {
+  border: 7px solid black;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  height: 480px;
+  width: 600px;
+  text-align: center;
+  background-color: #dc6c5e;
+  padding-top: 130px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.download {
+}
+.yazi {
+  text-align: center;
+  color: #4b3a3a;
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #dc6c5e;
+}
+h1,
+span {
+  font-size: 25px;
+  background-color: #dc6c5e;
+}
+.download {
+  text-align: center;
+  color: #a771aa;
+}

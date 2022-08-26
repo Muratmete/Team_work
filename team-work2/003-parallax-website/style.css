@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(98, 98, 110, 0.821);
+}
+/*? Birinci Fotoğraf ?*/
+.bolum1 {
+  background-image: url(./img/bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.etiket1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  clear: both;
+}
+
+.etiket1 .border1 {
+  color: white;
+  font-size: 35px;
+  text-transform: uppercase;
+  background-color: black;
+  border: 2px solid gray;
+  border-radius: 15px 0 15px 0;
+  outline: 2px solid gray;
+  outline-offset: 4px;
+  padding: 4px;
+}
+/*? İkinci Fotoğraf ?*/
+.bolum2 {
+  background-image: url(./img/bg2.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.etiket2 .border2 img {
+  width: 300px;
+  margin-top: 25%;
+  margin-left: 40%;
+}
+
+/*? Üçüncü Fotoğraf ?*/
+.bolum3 {
+  background-image: url(./img/bg3.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.etiket3 span {
+  position: absolute;
+  width: 500px;
+  margin-left: 33%;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  background-color: black;
+  border: 2px solid gray;
+  border-radius: 15px 0 15px 0;
+  outline: 2px solid gray;
+  outline-offset: 4px;
+  padding: 4px;
+  margin-top: 260px;
+}
+
+/*? Dördüncü Fotoğraf ?*/
+.bolum4 {
+  background-image: url(./img/bg4.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.etiket4 span {
+  position: absolute;
+  width: 500px;
+
+  margin-left: 33%;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+
+  background-color: black;
+  border: 2px solid gray;
+  border-radius: 15px 0 15px 0;
+  outline: 2px solid gray;
+  outline-offset: 4px;
+  padding: 4px;
+  margin-top: 260px;
+}
+/*? Beşinci Fotoğraf ?*/
+.bolum5 {
+  background-image: url(./img/bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.etiket5 span {
+  position: absolute;
+  width: 500px;
+
+  margin-left: 33%;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+
+  background-color: black;
+  border: 2px solid gray;
+  border-radius: 15px 0 15px 0;
+  outline: 2px solid gray;
+  outline-offset: 4px;
+  padding: 4px;
+  margin-top: 260px;
+}
+/*? YAZILAR */
+.box1,
+.box2,
+.box3,
+.box4 {
+  text-align: center;
+  margin: 0px;
+  padding: 40px;
+}
+.box1,
+.box3 {
+  background-color: white;
+}
+
+/* .etiket3 {
+  
+
+  color: white;
+  font-size: 35px;
+
+  background-color: black;
+  border: 2px solid gray;
+  border-radius: 15px 0 15px 0;
+  outline: 2px solid gray;
+  outline-offset: 4px;
+  padding: 4px;
+  
+} */

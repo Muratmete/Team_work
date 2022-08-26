@@ -1,0 +1,157 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/*?=========BİRİNCİ FOTOĞRAF=======*/
+.bolum1 {
+  background-image: url(./img/bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100%;
+  opacity: 0.6;
+  position: relative;
+}
+.etiket1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  /* clear: both; */
+}
+.etiket1 .border1 {
+  color: white;
+  font-size: 35px;
+  text-transform: uppercase;
+  background-color: black;
+  border: 2px solid gray;
+  border-radius: 15px 0 15px 0;
+  outline: 2px solid gray;
+  outline-offset: 4px;
+  padding: 6px;
+  letter-spacing: 3px;
+}
+
+/*?=========İKİNCİ FOTOĞRAF========*/
+.bolum2 {
+  background-image: url(./img/bg2.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+  opacity: 0.6;
+}
+.etiket2 .border2 img {
+  width: 350px;
+  margin-top: 25%;
+  margin-left: 38%;
+}
+
+/*?=========ÜÇÜNCÜ FOTOĞRAF========*/
+.bolum3 {
+  background-image: url(./img/bg3.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+  opacity: 0.6;
+  position: relative;
+}
+
+.etiket3 .border3 {
+  background-color: black;
+  color: white;
+  padding: 6px;
+  outline: 2px solid gray;
+  border-radius: 15px 0 15px 0;
+  outline-offset: 4px;
+  letter-spacing: 3px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  text-align: center;
+
+  /* margin-top: 260px; */
+}
+/* .etiket3 {
+  margin-top: 300px;
+} */
+
+/*?=========DÖRDÜNCÜ FOTOĞRAF======*/
+.bolum4 {
+  background-image: url(./img/bg4.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+  opacity: 0.6;
+  position: relative;
+}
+.etiket4 .border4 {
+  background-color: black;
+  color: white;
+  padding: 6px;
+  outline: 2px solid gray;
+  border-radius: 15px 0 15px 0;
+  outline-offset: 4px;
+  letter-spacing: 3px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  text-align: center;
+}
+
+/*?=========BEŞİNCİ FOTOĞRAF=======*/
+
+.bolum5 {
+  background-image: url(./img/bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+  opacity: 0.6;
+  position: relative;
+}
+.etiket5 .border5 {
+  background-color: black;
+  color: white;
+  padding: 6px;
+  outline: 2px solid gray;
+  border-radius: 15px 0 15px 0;
+  outline-offset: 4px;
+  letter-spacing: 3px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  text-align: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  text-align: center;
+  padding: 40px;
+}
+.box2,
+.box4 {
+  background-color: gray;
+}
