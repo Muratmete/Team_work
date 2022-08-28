@@ -1,0 +1,31 @@
+#grid {
+  display: grid;
+  grid-template-rows: 19vh 25vh 25vh 19vh;
+  /* grid-template-rows: 190px 225px 225px 190px; */
+  grid-template-columns: 25% 25% 25% 20%;
+  grid-gap: 1.5vw;
+  color: white;
+}
+#grid > div {
+  font-size: 2vw;
+  padding: 0.5em;
+  background: rgb(93, 132, 214);
+  text-align: center;
+}
+.head {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.main {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.foot {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.side {
+  grid-column: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
