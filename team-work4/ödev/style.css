@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#ma {
+  padding-left: 25px;
+  background-image: url(.././checkoutpage/envelope-solid.svg);
+  background-size: 20px;
+  background-position: left;
+
+  background-repeat: no-repeat;
+  height: 25px;
+}
+#tel {
+  background-image: url(.././checkoutpage/phone-solid.svg);
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  height: 25px;
+  background-size: 20px;
+  background-position: left;
+}
+#na {
+  background-image: url(.././checkoutpage/user-solid.svg);
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  height: 25px;
+  background-size: 20px;
+  background-position: left;
+}
+#ad {
+  background-image: url(.././checkoutpage/house-chimney-solid.svg);
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  height: 25px;
+  background-size: 20px;
+  background-position: left;
+}
+#cty {
+  background-image: url(.././checkoutpage/city-solid.svg);
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  height: 25px;
+  background-size: 20px;
+  background-position: left;
+}
+#count {
+  background-image: url(.././checkoutpage/earth-europe-solid.svg);
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  background-size: 20px;
+  background-position: left;
+  height: 25px;
+}
+#cod {
+  background-image: url(.././checkoutpage/envelopes-bulk-solid.svg);
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  height: 25px;
+  background-size: 20px;
+  background-position: left;
+}
+.container {
+  display: flex;
+  margin-left: 25%;
+}
+h1 {
+  text-align: center;
+}
+.canta {
+  display: flex;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+.ayakkabi {
+  margin: 30px 0 30px 30px;
+  display: flex;
+}
+.ayakkabi .urunresim {
+  height: 120px;
+}
+.canta .urunresim {
+  height: 120px;
+}
+.resim {
+  background-color: gray;
+  width: 300px;
+  height: 450px;
+  margin-left: 20px;
+}
+.text1 {
+  display: flex;
+  border-top: 2px solid black;
+  width: 200px;
+
+  margin-left: 30px;
+}
+.text1 span {
+  margin-left: 60%;
+}

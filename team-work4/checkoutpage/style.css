@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.inp input {
+  text-align: center;
+}
+#mail {
+  background-image: url(./user-solid.svg);
+  background-repeat: no-repeat;
+}
