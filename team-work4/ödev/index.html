@@ -11,14 +11,15 @@
     <h1>Checkout</h1>
     <div class="container">
       <!--! Form ile resim olarak iki ana div açtım ikisini yan yana getireceğiz. Form tekbir alt form divinden oluşuyor-->
-      <div class="form">
-        <h3>Concact information</h3>
+      <form action="result.html" method="get" class="form">
+        <h2>Contact information</h2>
         <label for="ma">Email</label><br />
         <input
           type="email"
           name="email"
           id="ma"
           placeholder="Enter your Email"
+          required
         />
         <br />
         <label for="tel">Phone</label><br />
@@ -29,6 +30,7 @@
           placeholder="Enter your number"
         /><br /><br /><br />
         <h2>Shipping adress</h2>
+
         <label for="na">Full Name</label><br />
         <input
           type="text"
@@ -52,7 +54,7 @@
           placeholder="Enter your city"
         /><br />
 
-        <label for="">Country&emsp;&emsp;&emsp;Post Code</label>
+        <label for="">Country&emsp;&emsp;&emsp;&emsp;Post Code</label>
         <!--!&emps boşluk bırakmak için-->
         <br />
 
@@ -70,8 +72,8 @@
         <br />
         <input type="checkbox" name="box" id="box1" />
         <label for="box1">See this information next time</label><br />
-        <button type="submit">Continue</button>
-      </div>
+        <button type="submit" id="cont">Continue</button>
+      </form>
       <div class="resim">
         <!--!ürün resimlerinin ve fiyatlarının bulunduğu div-->
         <div class="canta">
