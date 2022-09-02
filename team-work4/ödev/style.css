@@ -12,71 +12,88 @@ h1 {
 }
 
 #ma {
-  padding-left: 25px;
+  padding-left: 30px;
   background-image: url(.././checkoutpage/envelope-solid.svg);
   background-size: 20px;
-  background-position: left;
-  width: 310px;
+  background-position: 5px 5px;
+  width: 385px;
   background-repeat: no-repeat;
-  height: 25px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
 #tel {
   background-image: url(.././checkoutpage/phone-solid.svg);
   background-repeat: no-repeat;
-  padding-left: 25px;
-  height: 25px;
+  padding-left: 30px;
+  height: 35px;
   background-size: 20px;
-  background-position: left;
-  width: 310px;
+  background-position: 5px 5px;
+  width: 385px;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
 #na {
   background-image: url(.././checkoutpage/user-solid.svg);
   background-repeat: no-repeat;
-  padding-left: 25px;
-  height: 25px;
+  padding-left: 30px;
+  height: 35px;
   background-size: 20px;
-  background-position: left;
-  width: 310px;
+  background-position: 5px 5px;
+  width: 385px;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
 #ad {
   background-image: url(.././checkoutpage/house-chimney-solid.svg);
   background-repeat: no-repeat;
-  padding-left: 25px;
-  height: 25px;
+  padding-left: 30px;
+  height: 35px;
   background-size: 20px;
-  background-position: left;
-  width: 310px;
+  background-position: 5px 5px;
+  width: 385px;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
 #cty {
   background-image: url(.././checkoutpage/city-solid.svg);
   background-repeat: no-repeat;
-  padding-left: 25px;
-  height: 25px;
+  padding-left: 30px;
+  height: 35px;
   background-size: 20px;
-  background-position: left;
-  width: 310px;
+  background-position: 5px 5px;
+  width: 385px;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
 #count {
   background-image: url(.././checkoutpage/earth-europe-solid.svg);
   background-repeat: no-repeat;
-  padding-left: 25px;
+  padding-left: 30px;
   background-size: 20px;
-  background-position: left;
-  height: 25px;
+  background-position: 5px 5px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
 #cod {
   background-image: url(.././checkoutpage/envelopes-bulk-solid.svg);
   background-repeat: no-repeat;
-  padding-left: 25px;
-  height: 25px;
+  padding-left: 30px;
+  height: 35px;
   background-size: 20px;
-  background-position: left;
+  background-position: 5px 5px;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
 .container {
   display: flex;
-  margin-left: 35%;
+  /* margin-left: 35%; */
   margin-top: 50px;
   line-height: 25px;
+  margin: auto;
+  width: 50vw;
+  justify-content: center;
 }
 h1 {
   text-align: center;
@@ -96,11 +113,20 @@ h1 {
   width: 90px;
   border-radius: 10px;
 }
+.ayakkabi .urunresim:hover {
+  scale: 150%;
+  transition: 1.5s;
+}
 .canta .urunresim {
   height: 120px;
   width: 90px;
   border-radius: 10px;
 }
+.canta .urunresim:hover {
+  scale: 150%;
+  transition: 1s;
+}
+
 .resim {
   background-color: rgb(237, 235, 235);
   width: 300px;
@@ -145,5 +171,6 @@ h1 {
   background-position: center;
   text-transform: 1;
 } */
-h2 {
+.eski {
+  text-decoration: line-through;
 }
