@@ -4,53 +4,127 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="style.css" />
     <title>Checkout</title>
   </head>
   <body>
+    <h1>Checkout</h1>
     <div class="container">
-      <h1>Checkout</h1>
-      <div class="contact">
+      <!--! Form ile resim olarak iki ana div açtım ikisini yan yana getireceğiz. Form tekbir alt form divinden oluşuyor-->
+      <form action="result.html" method="get" class="form">
         <h2>Contact information</h2>
-        <div>
-          <label for="">Email</label><br />
-          <div class="inp">
-            <input
-              type="email"
-              name=""
-              id="mail"
-              placeholder=" Enter your email.."
-            />
-            <i class="fas fa-envelope" aria-hidden="true"></i>
+        <label for="ma">Email</label><br />
+        <input
+          type="email"
+          name="email"
+          id="ma"
+          placeholder="Enter your Email"
+          required
+        />
+        <br />
+        <label for="tel">Phone</label><br />
+        <input
+          type="tel"
+          name="phone"
+          id="tel"
+          placeholder="Enter your number"
+        /><br /><br /><br />
+        <h2>Shipping adress</h2>
+
+        <label for="na">Full Name</label><br />
+        <input
+          type="text"
+          name="name"
+          id="na"
+          placeholder="Enter your name"
+        /><br />
+        <label for="ad">Adress</label><br />
+        <input
+          type="text"
+          name="adress"
+          id="ad"
+          placeholder="Enter your adress"
+        />
+        <br />
+        <label for="cty">City</label><br />
+        <input
+          type="text"
+          name="city"
+          id="cty"
+          placeholder="Enter your city"
+        /><br />
+
+        <label for="">Country&emsp;&emsp;&emsp;&emsp;Post Code</label>
+        <!--!&emps boşluk bırakmak için-->
+        <br />
+
+        <select id="count">
+          <option>Türkiye</option>
+          <option>Almanya</option>
+          <option>İsveç</option>
+        </select>
+        <input
+          type="text"
+          name="code"
+          id="cod"
+          placeholder="Enter your postal code"
+        />
+        <br />
+        <input type="checkbox" name="box" id="box1" />
+        <label for="box1">See this information next time</label><br />
+        <button type="submit" id="cont">Continue</button>
+      </form>
+      <div class="resim">
+        <!--!ürün resimlerinin ve fiyatlarının bulunduğu div-->
+        <div class="canta">
+          <!--!resim ile fiyatın olduğu bölümü kapsayan div-->
+          <img
+            src="./25709027-a238-4c32-9e24-380747f64e09.jpg"
+            alt="canta"
+            class="urunresim"
+          />
+          <div class="box">
+            <!--!resim yanındaki yazıların tamamını kapsayan div-->
+            <h3>Vintage Backbag</h3>
+            <p>$54.99 <span class="eski">$94.99</span></p>
+            <br />
+            <!--! artır azalt butonunun bulunduğu bölüm alttaki 3 satır-->
+            <button type="button" onclick="azalt()">-</button>
+            <input type="text" value="0" size="5" id="sayi" name="sayi" />
+            <button type="button" onclick="artir()">+</button>
           </div>
         </div>
-        <div>
-          <label for="">Phone</label><br />
-          <input type="tel" name="" id="" placeholder="Enter your phone.." />
-          <i class="fas fa-phone-alt" aria-hidden="true"></i>
+        <div class="ayakkabi">
+          <!--!resim ile fiyatın olduğu bölümü kapsayan div-->
+          <img src="./ayakkabı.png" alt="ayakkabi" class="urunresim" />
+          <div class="box1">
+            <!--!resim yanındaki yazıların tamamını kapsayan div-->
+            <h3>Levi Shoes</h3>
+            <p>$74.99 <span class="eski">$124.99</span></p>
+            <br />
+            <button type="button" onclick="azalt()">-</button>
+            <input type="text" value="0" size="5" id="sayi" name="sayi" />
+            <button type="button" onclick="artir()">+</button>
+          </div>
         </div>
-        <h2>Shipping Address</h2>
-        <div>
-          <label for="">Full Name</label><br />
-          <input
-            type="text"
-            name=""
-            id=""
-            placeholder="Enter your full name.."
-          />
-          <i class="fas fa-user" aria-hidden="true"></i>
-        </div>
-        <label for="">Address</label><br />
-        <input type="text" name="" id="" placeholder="Enter your address.." />
-        <i class="fas fa-home" aria-hidden="true"></i>
+        <p class="text1">Shipping <span class="fiyat1">$19</span></p>
+        <p class="text1">Total <span class="fiyat1">$148.98</span></p>
       </div>
     </div>
   </body>
+  <script type="text/javascript">
+    var s = 0;
+
+    function artir() {
+      deger = document.getElementById("sayi");
+      s++;
+      deger.value = s;
+    }
+
+    function azalt() {
+      deger = document.getElementById("sayi");
+      s--;
+      deger.value = s;
+    }
+  </script>
 </html>
